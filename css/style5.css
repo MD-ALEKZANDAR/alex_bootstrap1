@@ -1,0 +1,102 @@
+.navbar {
+  background: #000; }
+  .navbar .nav-item {
+    padding-left: 1rem; }
+  .navbar .nav-link {
+    text-transform: uppercase; }
+
+.carousel-item {
+  height: 450px; }
+
+.carousel-image-1 {
+  background: url("../images/image1.jpeg");
+  background-size: cover; }
+
+.carousel-image-2 {
+  background: url("../images/image2.jpeg");
+  background-size: cover; }
+
+.carousel-image-3 {
+  background: url("../images/image3.jpeg");
+  background-size: cover; }
+
+#home-icon .fas {
+  font-size: 50px; }
+
+#get-started {
+  position: relative;
+  background: url("../images/bg1.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 250px;
+  background-repeat: no-repeat; }
+  #get-started .get-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0; }
+
+#home-vedio {
+  position: relative;
+  background: url("../images/people.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 250px;
+  background-attachment: fixed; }
+  #home-vedio .overlay {
+    background: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    min-height: 250px;
+    height: 100%;
+    width: 100%;
+    position: absolute; }
+    #home-vedio .overlay .fab {
+      font-size: 50px;
+      color: #ff0000; }
+
+#copy-write {
+  background: #000; }
+
+#about-head, #blog-head {
+  background: url("../images/image1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 200px; }
+
+#about-info img {
+  width: 350px;
+  height: 350px; }
+
+#icon-boxes .fas {
+  font-size: 50px; }
+#icon-boxes .fab {
+  font-size: 50px; }
+
+@media (max-width: 767px) {
+  .nav-item {
+    padding-left: 0 !important; }
+
+  #get-started {
+    min-height: 300px;
+    left: 0;
+    top: 0;
+    margin-top: 0; }
+
+  #icon-boxes .card {
+    margin-top: 20px; } }
+#testimonial .slick-prev::before,
+#testimonial .slick-next::before {
+  color: #000; }
+
+@media (max-width: 480px) {
+  .carousel h2 {
+    font-size: 2.5rem; }
+
+  #get-started {
+    min-height: 400px; } }
+
+/*# sourceMappingURL=style5.css.map */
